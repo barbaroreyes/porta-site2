@@ -31,6 +31,22 @@ nav a{
 
 
 }
+.profile-container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: var(--textColor);
+  position: relative;
+  width: 100%;
+
+}
+.profile-container img{
+  width: 35%;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+ 
 nav a:hover{
   color :var(--secondColor);
   
@@ -66,6 +82,9 @@ header .nav-btn{
     gap: 1rem;
    transition: 2s;
    transform: translateY(-100vh);
+  }.profile-container h1{
+    width: 100%;
+    font-size: 20px;
   }
   header .responsive_var{
     transform: none;
@@ -75,6 +94,9 @@ header .nav-btn{
     right: 2rem;
       
 
+  } header h1{
+    color: var(--textColor);
+    width:50%;
   }
   nav a {
     font-size: 1.5rem;

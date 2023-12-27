@@ -1,9 +1,10 @@
 import {useRef}from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa'
+import Profile from './Profile';
 
 
 const NavBar = () => {
-    
+
     const navRef = useRef();
     const showNavBar =()=> {
         navRef.current.classList.toggle('responsive_var')
@@ -11,6 +12,7 @@ const NavBar = () => {
 
   return (
     <header>
+        <Profile/>
     <nav ref ={navRef}>
       <a href='/'>Home</a>
       <a href='/portafolio'>Portafolio</a>
