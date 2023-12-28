@@ -17,7 +17,7 @@ const NavBar = () => {
     
     <nav ref ={navRef}>
       <Link to='/'><FaHome /></Link>
-      <Link to='/portafolio'><FaFolderOpen /></Link>
+      <Link to='portafolio'><FaFolderOpen /></Link>
       <Link to='/about'><FaUser /></Link>
       <Link to='/contact'><FaEnvelopeOpen/></Link>
       <button onClick={showNavBar} className=' nav-btn nav-close-btn '>
