@@ -17,13 +17,17 @@
 header{
   display: flex;
   align-items:center;
-  justify-content: space-between;
-  flex-direction: row;
+  justify-content: space-around;
   height: 80px;
   padding: 0 2rem;
   background-color: var(--mainColor);
  
  
+}
+header nav{
+  display: flex;
+  flex-direction: row;
+  
 }
 nav a{
   margin: 0 2rem;
