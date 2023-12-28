@@ -74,23 +74,34 @@ header .nav-btn{
 
 .picture-container1{
   display: flex;
-  flex-direction: column;
-  padding: 10px;
+  
+  
 
 }
 .container{
+  position:relative;
   display: flex;
   justify-content: center;
   align-items:center;
+  padding: 10px;
 
   
 }
+.container button{
+  position:absolute;
+  top: 3em;
+  right: 6em;
+  
+}
 .picture-container1{
-  width: 40%;
+  width: 41%;
+  height: 76vh;
+  
 }
 .picture-container1 img{
   width: 100%;
-  border-radius:50%
+  border-radius:50%;
+  object-fit:fill;
  }
  .text-container h3{
   display: flex;
