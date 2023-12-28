@@ -1,9 +1,9 @@
 import React from 'react';
-
+import code  from '../pexels_videos.mp4'
 const Home = () => {
   return (
-    <div>
-      Home
+    <div className="home_container">
+      
     </div>
   );
 }

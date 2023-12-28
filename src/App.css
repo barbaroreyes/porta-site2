@@ -7,7 +7,7 @@
 
 
 :root{
-  --mainColor: darkblue;
+  --mainColor: #161728;
   --mainLight : rgb(119, 119, 145);
   --secondColor : #3a91b9;
   --textColor : #E5DAC4;
@@ -69,6 +69,13 @@ header .nav-btn{
   opacity: 0;
 
 }
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: container;
+
+}
+
 
 @media( max-width: 1024px){
   header h2{
@@ -79,13 +86,16 @@ header .nav-btn{
     opacity: 1;
   
   
+  }video{
+    width: 100%;
+    height: 100%;
   }
   header nav{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,5 +136,8 @@ header .nav-btn{
   nav a {
     font-size: 1.5rem;
 
+  }video{
+    
+    
   }
 }
