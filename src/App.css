@@ -46,13 +46,15 @@ nav a{
   
 
 }
+
 .picture-container h3{
   font-size: 13px;
   color: var(--textColor);
 }
 .picture-container img{
   width: 8%;
-  border-radius: 50%; 
+  border-radius: 50%;
+ 
 }
 
  
@@ -74,18 +76,13 @@ header .nav-btn{
 
 }
 
-.picture-container1{
-  display: flex;
-  
-  
 
-}
 .container{
   position:relative;
   display: flex;
   justify-content: center;
   align-items:center;
-  padding: 10px;
+  padding: 15px;
  flex-direction: row;
   
 }
@@ -95,17 +92,27 @@ header .nav-btn{
   right: 6em;
   
 }
+
 .picture-container1{
+  display: flex;
   width: 41%;
   height: 76vh;
   position: relative;
+  opacity: 0.6;
+  transition: all 2s ease;
 }
+
+.picture-container1:hover{
+  opacity: 1;
+ 
+}
+
 
 
 .picture-container1 img{
   width: 100%;
   border-radius:50%;
-  object-fit:fill;
+  
  }
  .text-container h3{
   display: flex;
