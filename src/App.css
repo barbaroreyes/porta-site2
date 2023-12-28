@@ -104,6 +104,7 @@ header .nav-btn{
     width:50%;
   }.picture-container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 93%;
@@ -114,7 +115,7 @@ header .nav-btn{
     margin: 4px;
     
   }.picture-container h3{
-    font-size: 17px;
+    font-size: 18px;
     color: var(--textColor);
   }
   
