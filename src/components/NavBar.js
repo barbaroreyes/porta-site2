@@ -12,7 +12,8 @@ const NavBar = () => {
 
   return (
     <header>
-        <Profile/>
+    <Profile/>
+    
     <nav ref ={navRef}>
       <a href='/'>Home</a>
       <a href='/portafolio'>Portafolio</a>
