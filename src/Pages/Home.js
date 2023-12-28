@@ -9,7 +9,7 @@ const Home = () => {
       
       </div>
       <div className="text-container">
-      <button>Email Me</button>
+     
       <h3>Dev & UX/UI</h3>
        
       </div>

@@ -84,7 +84,7 @@ header .nav-btn{
   justify-content: center;
   align-items:center;
   padding: 10px;
-
+ flex-direction: row;
   
 }
 .container button{
@@ -96,8 +96,10 @@ header .nav-btn{
 .picture-container1{
   width: 41%;
   height: 76vh;
-  
+  position: relative;
 }
+
+
 .picture-container1 img{
   width: 100%;
   border-radius:50%;
@@ -110,7 +112,6 @@ header .nav-btn{
   border-bottom:1.5px solid  var(--secondColor);
   font-size: 70px;
   margin: 14px;
-  padding: 10px;
   border-radius:10px;
   color:var(--textColor);
   text-shadow: 0 0 5px;
@@ -139,6 +140,14 @@ header .nav-btn{
   }
  
 
+}
+@keyframes animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 @media( max-width: 1024px){
@@ -180,6 +189,9 @@ header .nav-btn{
   } header h1{
     color: var(--textColor);
     width:50%;
+  }
+  .container{
+    margin-top: 8rem;
   }.picture-container{
     display: flex;
     flex-direction: row;
@@ -200,9 +212,19 @@ header .nav-btn{
   nav a {
     font-size: 1.5rem;
 
-  }.picture-container1{
-   visibility: hidden;
+  }.container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .picture-container1{
+   width: 71%;
+  height: 30vh;
+   
   }.text-container{
-    visibility: hidden;
-  } 
+    
+  } .picture-container h3{
+    text-align: center;
+  }
 }
