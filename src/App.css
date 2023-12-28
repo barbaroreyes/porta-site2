@@ -21,6 +21,8 @@ header{
   height: 100px;
   padding: 0 2rem;
   background-color: var(--mainColor);
+  
+
  
  
 }
@@ -177,6 +179,7 @@ header .nav-btn{
   gap: 1rem;
   transition: 2s;
    transform: translateY(-100vh);
+   z-index: 1;
   }
   header .responsive_var{
     transform: none;
