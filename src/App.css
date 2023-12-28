@@ -98,16 +98,22 @@ header .nav-btn{
   width: 41%;
   height: 76vh;
   position: relative;
-  opacity: 0.6;
-  transition: all 2s ease;
+  opacity: 0.5;
+  animation: anima 4s  infinite ease-in-out;
 }
 
-.picture-container1:hover{
-  opacity: 1;
+
+
+@keyframes anima{
  
+  0%{opacity: 0.3;} 
+  20%{opacity: 0.7;}
+  50%{opacity: 0.9;}
+  100%{
+    opacity: 1;
+ 
+  }
 }
-
-
 
 .picture-container1 img{
   width: 100%;
